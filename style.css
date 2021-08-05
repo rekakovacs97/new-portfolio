@@ -1,0 +1,39 @@
+body {
+    background-size: 300px 100px;
+    background: url(4.jpg);
+    background-size:auto;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: rgb(112, 172, 144);
+
+}
+ul li {
+    margin-right: 15px;
+    padding: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.marginforcontact {
+    margin-right: 160px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

@@ -1,39 +1,97 @@
-body {
-    background-size: 300px 100px;
-    background: url(4.jpg);
-    background-size:auto;
-}
+html { 
+    background: url(1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
-ul {
+.menu {
     display: flex;
     justify-content: flex-end;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    padding: 5px;
-}
-
-a:hover {
-    background-color: rgb(112, 172, 144);
-
-}
-ul li {
-    margin-right: 15px;
-    padding: 5px;
+.links-nav {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 20px;
     list-style-type: none;
 }
 
-.marginforcontact {
-    margin-right: 160px;
+.links-menu {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
 }
 
-.container {
+.menu:last-child {
+    margin-right: 30px;
+}
+
+.links-menu:hover {
+  background-color: rgb(112, 172, 144);
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    background: #faf4f4;
+    z-index: 2;
+    width: 100%;
+}
+
+.width-for-links {
+    width: 50%;
+}
+
+.container-second {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+.trtest {
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transition: all 2s;
+}
+
+.trtest--move {
+    text-align: center;
+    left: 35%;
+    font-size: 30px;  
+    color: rgb(64, 145, 64);
+}
+
+.footer {
+    width: 30%;
+    position: fixed;
+    bottom: 0;
+    background: #faf4f4;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.links-footer {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    
+}
+
+.links-footer:hover {
+    background-color: rgb(112, 172, 144);
+}
+
+.links-socialm {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 5px;
+}
+
+    

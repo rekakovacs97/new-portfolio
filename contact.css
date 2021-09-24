@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+}
+
+.container-wrapper {
+    /*width: 50%; 
+    margin: 0 auto; /*divekre ha kozepre akarom tenni
+    display: flex; */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+
+/*
+.contact .container-wrapper {ha egy css-be lenne az egesz akkor igy kulonboztetnem meg, hogy odairom, .contact es akkor
+    arrrol az oldalra fogja berakni a dolgoakt 
+    display: block;  ezzel megsemmisitem a fneti hatasat 
+} */
+
+.personalinfo {
+    font-size: 25px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.elements {
+    padding: 20px;
+}

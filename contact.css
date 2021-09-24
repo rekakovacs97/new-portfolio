@@ -31,3 +31,33 @@
 .elements {
     padding: 20px;
 }
+
+@media only screen and (max-width: 1350px) {
+    .personalinfo {
+        font-size: 29px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .personalinfo {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .personalinfo {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .personalinfo {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .personalinfo {
+        font-size: 17px;
+    }
+}

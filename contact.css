@@ -32,17 +32,34 @@
 
 @media only screen and (max-width: 1280px) {
     .personalinfo {
-        font-size: 26px;
+        font-size: 28px;
+    }
+    
+    .elements {
+        padding: 20px;
+    }
+
+    .container-wrapper {
+        top: 45%;
     }
 }
-
+*/
 @media only screen and (max-width: 1024px) {
     .personalinfo {
-        font-size: 25px;
+        font-size: 28px;
+    }
+
+    .elements {
+        padding: 16px;
+    }
+
+    .container-wrapper {
+        top: 45%;
     }
 }
 
-*/
+
+
 @media only screen and (max-width: 768px) {
     .personalinfo p{
         font-size: 23px;

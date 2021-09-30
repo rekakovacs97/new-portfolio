@@ -27,47 +27,80 @@
 }
 /*
 @media only screen and (max-width: 1350px) {
-    .personalinfo {
-        font-size: 29px;
-    }
-
     .footer {
         position: relative;
     }
 
+    .personalinfo p {
+        font-size: 22px;
+    }
+
+    .footer {
+        position: relative ;
+    }
+
     .githublinks {
         color: green;
+        font-size: 26px;
+    }
+
+    .container-wrapper {
+        width: 73%;
+    }
+
+    .headerstyle {
+        font-size: 30px;
+    }
+
+    .headerstyle2{
+        font-size: 28px;
     }
 }
+
 @media only screen and (max-width: 1280px) {
-    .personalinfo {
+    .personalinfo p {
         font-size: 26px;
     }
 
     .footer {
-        position: ;
+        position: relative ;
     }
 
     .githublinks {
         color: green;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .personalinfo p {
-        font-size: 23px;
-    }
-
-    .footer {
-        position: ;
-    }
-
-    .githublinks {
-        color: green;
+        font-size: 26px;
     }
 
     .container-wrapper {
-        width: 75%;
+        width: 73%;
+    }
+
+    .headerstyle {
+        font-size: 30px;
+    }
+
+    .headerstyle2{
+        font-size: 28px;
+    }
+}
+
+*/
+@media only screen and (max-width: 1024px) {
+    .personalinfo p {
+        font-size: 25px;
+    }
+
+    .footer {
+        position: relative ;
+    }
+
+    .githublinks {
+        color: green;
+        font-size: 25px;
+    }
+
+    .container-wrapper {
+        width: 80%;
     }
 
     .headerstyle {
@@ -75,10 +108,10 @@
     }
 
     .headerstyle2{
-        font-size: 23px;
+        font-size: 26px;
     }
 }
-*/ 
+
 
 @media only screen and (max-width: 768px) {
     .personalinfo p {

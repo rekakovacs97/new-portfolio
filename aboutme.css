@@ -26,7 +26,7 @@ img{
 }
 
 .footer {
-    position: relative;
+    position: fixed;
 }
 
 /*
@@ -43,23 +43,42 @@ img{
 @media only screen and (max-width: 1280px) {
     .text {
         font-size: 26px;
+        width: 73%;
     }
 
     .footer {
         position: fixed;
     }
-}
 
-@media only screen and (max-width: 1024px) {
-    .text {
-        font-size: 22px;
-    }
-
-    .footer {
-        position: fixed;
+    .personalinfo {
+        font-size: 26px;
     }
 }
 */
+@media only screen and (max-width: 1024px) {
+    .text {
+        font-size: 26px;
+        width: 80%;
+    }
+
+    img {
+        width: 90%;
+        position: inherit;
+    }
+
+    .footer {
+        position: relative;
+    }
+
+    .container-wrapp {
+        flex-direction: column;
+    }
+
+    .picture {
+        margin: 0 auto;
+    }  
+}
+
 @media only screen and (max-width: 768px) {
     .text {
         font-size: 23px;

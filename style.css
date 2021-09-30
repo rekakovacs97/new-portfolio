@@ -99,15 +99,14 @@ html {
 /*
 @media only screen and (max-width: 1350px) {
     .links-menu {
-        padding: 10px;
+        padding: 20px;
     }
 
     .links-nav, .trtest--move, .links-socialm {
-        font-size: 30px;
-        font-weight: 700;
+        font-size: 22px;
     }
     .menu {
-        justify-content: space-between;
+        justify-content: flex-end;
     }
     .menu:last-child {
         margin-right: 0;
@@ -118,20 +117,20 @@ html {
     }
 
     .footer {
-        justify-content: space-around;
+        justify-content: flex-start;
     }
 }
+
 @media only screen and (max-width: 1280px) {
     .links-menu {
-        padding: 8px;
+        padding: 20px;
     }
 
     .links-nav, .trtest--move, .links-socialm {
-        font-size: 30px;
-        font-weight: 700;
+        font-size: 32px;
     }
     .menu {
-        justify-content: space-between;
+        justify-content: flex-end;
     }
     .menu:last-child {
         margin-right: 0;
@@ -142,35 +141,34 @@ html {
     }
 
     .footer {
-        justify-content: space-around;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .links-menu {
-        padding: 6px;
-    }
-
-    .links-nav, .trtest--move, .links-socialm {
-        font-size: 25px;
-        font-weight: 700;
-    }
-    .menu {
-        justify-content: space-between;
-    }
-    .menu:last-child {
-        margin-right: 0;
-    }
-
-    nav {
-        padding-bottom: 10px;
-    }
-
-    .footer {
-        justify-content: space-around;
+        justify-content: flex-start;
     }
 }
 */
+@media only screen and (max-width: 1024px) {
+    .links-menu {
+        padding: 12px;
+    }
+
+    .links-nav, .trtest--move, .links-socialm {
+        font-size: 30px;
+    }
+    .menu {
+        justify-content: space-between;
+    }
+    .menu:last-child {
+        margin-right: 0;
+    }
+
+    nav {
+        padding-bottom: 10px;
+    }
+
+    .footer {
+        justify-content: space-around;
+    }
+}
+
 
 @media only screen and (max-width: 768px) {
     .links-menu {
@@ -196,7 +194,6 @@ html {
         justify-content: space-around;
     }
 }
-
 
 @media only screen and (max-width: 576px) {
     .links-menu {

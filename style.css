@@ -95,6 +95,7 @@ html {
     list-style-type: none;
     padding: 5px;
 }
+
 @media only screen and (max-width: 1350px) {
     .links-nav, .trtest--move, .links-socialm {
         font-size: 29px;
@@ -124,8 +125,11 @@ html {
     }
 
     .links-nav, .trtest--move, .links-socialm {
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 700;
+    }
+    .menu {
+        justify-content: space-between;
     }
 }
 

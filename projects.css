@@ -7,19 +7,19 @@
 }
 
 .personalinfo p {
-    font-size: 17px;  
+    font-size: 19px;  
     text-align: center;
 }
 
 .footer {
-    position: relative ;
+    position: fixed ;
 }
 
 .githublinks {
     text-decoration: none;
     font-weight: 700;
     color: green;
-    font-size: 15px;
+    font-size: 19px;
 }
 
 .githublinks:hover {

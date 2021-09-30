@@ -49,8 +49,8 @@
 }
 
 @media only screen and (max-width: 576px) {
-    .personalinfo {
-        font-size: 17px;
+    .personalinfo p {
+        font-size: 19px;
     }
 
     .elements {

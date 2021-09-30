@@ -32,7 +32,7 @@
     }
 
     .footer {
-        position: fixed;
+        position: relative;
     }
 
     .githublinks {
@@ -45,7 +45,7 @@
     }
 
     .footer {
-        position: fixed;
+        position: relative;
     }
 
     .githublinks {
@@ -59,7 +59,7 @@
     }
 
     .footer {
-        position: fixed;
+        position: relative;
     }
 
     .githublinks {
@@ -112,7 +112,7 @@
     }
 
     .footer {
-        position: fixed;
+        position: relative;
     }
 
     .githublinks {

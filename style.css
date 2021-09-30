@@ -131,6 +131,9 @@ html {
     .menu {
         justify-content: space-between;
     }
+    menu:last-child {
+        margin-right: 0;
+    }
 }
 
 /*

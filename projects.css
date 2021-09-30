@@ -26,6 +26,61 @@
     background-color: rgb(189, 197, 181);
 }
 
+@media only screen and (max-width: 1350px) {
+    .personalinfo {
+        font-size: 29px;
+    }
+
+    .footer {
+        position: inherit;
+    }
+
+    .githublinks {
+        color: green;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .personalinfo {
+        font-size: 26px;
+    }
+
+    .footer {
+        position: inherit;
+    }
+
+    .githublinks {
+        color: green;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .personalinfo {
+        font-size: 22px;
+    }
+
+    .footer {
+        position: inherit;
+    }
+
+    .githublinks {
+        color: green;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .personalinfo {
+        font-size: 17px;
+    }
+
+    .footer {
+        position: inherit;
+    }
+
+    .githublinks {
+        color: green;
+    }
+}
+
 @media only screen and (max-width: 575px) {
     .personalinfo {
         font-size: 10px;
@@ -33,6 +88,10 @@
 
     .footer {
         position: inherit;
+    }
+
+    .githublinks {
+        color: green;
     }
 }
 

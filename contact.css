@@ -43,8 +43,16 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .personalinfo {
-        font-size: 19px;
+    .personalinfo p{
+        font-size: 24px;
+    }
+    
+    .elements {
+        padding: 12px;
+    }
+
+    .container-wrapper {
+        top: 45%;
     }
 }
 

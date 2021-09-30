@@ -3,26 +3,26 @@ p {
 }
 
 .container-wrapp {
-    width: 100%;/*
-    margin: 0 auto; /*divekre ha kozepre akarok tenni*/
+    width: 100%;
     display: flex;
 }
 
 .picture {
     width: 20%;
-    float : left;
 }
 
 img{
-    width: 90%;
-    padding-top: 190px;
+    width: 18%;
+    position: fixed;
+    top: 260px;
 }
 
 .text {
-    margin: 0;
+    margin: 0 auto;
     width: 65%;
     float : left;
-    font-size: 20px;
+    font-size: 19px;
+    
 }
 
 
@@ -93,5 +93,29 @@ img{
 
     .footer {
         position: inherit;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .text {
+        font-size: 12px;
+    }
+
+    img {
+        width: 100%;
+        position: inherit;
+    }
+
+    .footer {
+        position: inherit;
+    }
+
+    .container-wrapp {
+        flex-direction: column;
+    }
+
+    .picture {
+        margin: 0 auto;
     }
 }

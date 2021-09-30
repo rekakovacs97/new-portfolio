@@ -10,13 +10,13 @@ html {
 .menu {
     display: flex;
     justify-content: flex-end;
+    list-style: none;
 }
 
 .links-nav {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 22px;
-    list-style-type: none;
 }
 
 .links-menu {
@@ -62,7 +62,7 @@ html {
 .trtest--move {
     text-align: center;
     left: 35%;
-    font-size: 30px;  
+    font-size: 25px;  
     color: rgb(64, 145, 64);
 }
 
@@ -122,3 +122,27 @@ html {
         font-size: 15px;
     }
 }
+
+
+@media only screen and (max-width: 375px) {
+    .links-menu {
+        padding: 8px;
+    }
+
+    .links-nav, .trtest--move, .links-socialm {
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .links-menu {
+        padding: 6px;
+    }
+
+    .links-nav, .trtest--move, .links-socialm {
+        font-size: 8px;
+        font-weight: 700;
+    }
+}
+

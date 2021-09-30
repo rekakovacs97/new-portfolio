@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+}
+.container-wrapper {
+    width: 59%;
+    margin: 0 auto;
+}
+
+.personalinfo p {
+    font-size: 17px;  
+    text-align: center;
+}
+
+.footer {
+    position: fixed ;
+}
+
+.githublinks {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .personalinfo {
+        font-size: 12px;
+    }
+
+    .footer {
+        position: inherit;
+    }
+}

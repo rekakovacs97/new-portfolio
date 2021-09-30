@@ -119,11 +119,11 @@ html {
 
 @media only screen and (max-width: 576px) {/*0tol 576ig max width;   min width: 576-tol felfele */ /* mindig maxot kell irjak */
     .links-menu {
-        padding: 8px;
+        padding: 2px;
     }
 
     .links-nav, .trtest--move, .links-socialm {
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 700;
     }
 }

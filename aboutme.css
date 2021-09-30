@@ -69,6 +69,14 @@ img{
     .footer {
         position: inherit;
     }
+    
+    .container-wrapp {
+        flex-direction: column;
+    }
+
+    .picture {
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 576px) {

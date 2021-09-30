@@ -12,7 +12,7 @@
 }
 
 .footer {
-    position: relative ;
+    position: fixed ;
 }
 
 .githublinks {
@@ -32,7 +32,7 @@
     }
 
     .footer {
-        position: inherit;
+        position: fixed;
     }
 
     .githublinks {
@@ -45,7 +45,7 @@
     }
 
     .footer {
-        position: inherit;
+        position: fixed;
     }
 
     .githublinks {
@@ -59,7 +59,7 @@
     }
 
     .footer {
-        position: inherit;
+        position: fixed;
     }
 
     .githublinks {
@@ -73,7 +73,7 @@
     }
 
     .footer {
-        position: inherit;
+        position: fixed;
     }
 
     .githublinks {
@@ -87,11 +87,23 @@
     }
 
     .footer {
-        position: inherit;
+        position: fixed;
     }
 
     .githublinks {
         color: green;
+    }
+
+    .container-wrapper {
+        width: 70%;
+    }
+
+    .headerstyle {
+        font-size: 19px;
+    }
+
+    .headerstyle2{
+        font-size: 17px;
     }
 }
 

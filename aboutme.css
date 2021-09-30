@@ -32,7 +32,7 @@ img{
     }
 
     .footer {
-        position: inherit;
+        position: fixed;
     }
 }
 
@@ -42,7 +42,7 @@ img{
     }
 
     .footer {
-        position: inherit;
+        position: fixed;
     }
 }
 
@@ -52,7 +52,7 @@ img{
     }
 
     .footer {
-        position: inherit;
+        position: fixed;
     }
 }
 
@@ -67,21 +67,14 @@ img{
     }
 
     .footer {
-        position: inherit;
+        position: fixed;
     }
     
-    .container-wrapp {
-        flex-direction: column;
-    }
-
-    .picture {
-        margin: 0 auto;
-    }
 }
 
 @media only screen and (max-width: 576px) {
     .text {
-        font-size: 10px;
+        font-size: 17px;
     }
 
     img {
@@ -90,7 +83,7 @@ img{
     }
 
     .footer {
-        position: inherit;
+        position: fixed;
     }
 
     .container-wrapp {

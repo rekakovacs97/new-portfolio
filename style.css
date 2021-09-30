@@ -98,35 +98,12 @@ html {
 }
 
 @media only screen and (max-width: 1350px) {
-    .links-nav, .trtest--move, .links-socialm {
-        font-size: 29px;
-    }
-}
-@media only screen and (max-width: 1280px) {
-    .links-nav, .trtest--move, .links-socialm {
-        font-size: 26px;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .links-nav, .trtest--move, .links-socialm {
-        font-size: 22px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .links-nav, .trtest--move, .links-socialm {
-        font-size: 17px;
-    }
-}
-
-@media only screen and (max-width: 576px) {/*0tol 576ig max width;   min width: 576-tol felfele */ /* mindig maxot kell irjak */
     .links-menu {
-        padding: 2px;
+        padding: 10px;
     }
 
     .links-nav, .trtest--move, .links-socialm {
-        font-size: 10px;
+        font-size: 30px;
         font-weight: 700;
     }
     .menu {
@@ -134,5 +111,112 @@ html {
     }
     .menu:last-child {
         margin-right: 0;
+    }
+
+    nav {
+        padding-bottom: 10px;
+    }
+
+    .footer {
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .links-menu {
+        padding: 8px;
+    }
+
+    .links-nav, .trtest--move, .links-socialm {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .menu {
+        justify-content: space-between;
+    }
+    .menu:last-child {
+        margin-right: 0;
+    }
+
+    nav {
+        padding-bottom: 10px;
+    }
+
+    .footer {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .links-menu {
+        padding: 6px;
+    }
+
+    .links-nav, .trtest--move, .links-socialm {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .menu {
+        justify-content: space-between;
+    }
+    .menu:last-child {
+        margin-right: 0;
+    }
+
+    nav {
+        padding-bottom: 10px;
+    }
+
+    .footer {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .links-menu {
+        padding: 4px;
+    }
+
+    .links-nav, .trtest--move, .links-socialm {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .menu {
+        justify-content: space-between;
+    }
+    .menu:last-child {
+        margin-right: 0;
+    }
+
+    nav {
+        padding-bottom: 10px;
+    }
+
+    .footer {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .links-menu {
+        padding: 2px;
+    }
+
+    .links-nav, .trtest--move, .links-socialm {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .menu {
+        justify-content: space-between;
+    }
+    .menu:last-child {
+        margin-right: 0;
+    }
+
+    nav {
+        padding-bottom: 10px;
+    }
+
+    .footer {
+        justify-content: space-around;
     }
 }

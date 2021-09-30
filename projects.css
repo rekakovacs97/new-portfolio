@@ -32,7 +32,7 @@
     }
 
     .footer {
-        position: ;
+        position: relative;
     }
 
     .githublinks {
@@ -112,7 +112,7 @@
     }
 
     .footer {
-        position: ;
+        position: relative;
     }
 
     .githublinks {
@@ -124,11 +124,11 @@
     }
 
     .headerstyle {
-        font-size: 19px;
+        font-size: 20px;
     }
 
     .headerstyle2{
-        font-size: 17px;
+        font-size: 18px;
     }
 }
 

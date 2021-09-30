@@ -70,7 +70,7 @@ html {
 
 .footer {
     width: 30%;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     background: #faf4f4;
     z-index: 2;

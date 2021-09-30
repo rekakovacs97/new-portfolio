@@ -12,7 +12,7 @@
 }
 
 .footer {
-    position: fixed ;
+    position: inherit ;
 }
 
 .githublinks {

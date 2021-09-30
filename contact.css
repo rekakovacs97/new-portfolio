@@ -23,6 +23,10 @@
 .elements {
     padding: 20px;
 }
+
+.footer {
+    position: absolute;
+}
 /*
 @media only screen and (max-width: 1350px) {
     .personalinfo {

@@ -12,13 +12,14 @@
 }
 
 .footer {
-    position: fixed ;
+    position: relative ;
 }
 
 .githublinks {
     text-decoration: none;
     font-weight: 700;
-    color: black;
+    color: green;
+    font-size: 15px;
 }
 
 .githublinks:hover {

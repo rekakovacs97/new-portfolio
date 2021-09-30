@@ -56,6 +56,7 @@ html {
 .trtest {
     width: fit-content;
     position: relative;
+    top: 50%;
     left: 50%;
     transition: all 2s;
 }
@@ -131,32 +132,7 @@ html {
     .menu {
         justify-content: space-between;
     }
-    menu:last-child {
+    .menu:last-child {
         margin-right: 0;
     }
 }
-
-/*
-@media only screen and (max-width: 414px) {
-    .links-menu {
-        padding: 8px;
-    }
-
-    .links-nav, .trtest--move, .links-socialm {
-        font-size: 10px;
-        font-weight: 700;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    .links-menu {
-        padding: 8px;
-    }
-
-    .links-nav, .trtest--move, .links-socialm {
-        font-size: 10px;
-        font-weight: 700;
-    }
-}
-
-

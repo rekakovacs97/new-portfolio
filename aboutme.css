@@ -74,12 +74,20 @@ img{
     }
 
     img {
-        padding-top: 60px;
+        width: 100%;
+        position: inherit;
     }
 
     .footer {
         position: inherit;
     }
+    .container-wrapp {
+        flex-direction: column;
+    }
+    
+    .picture {
+        margin: 0 auto;
+    }   
 }
 
 @media only screen and (max-width: 576px) {
@@ -88,11 +96,43 @@ img{
     }
 
     img {
-        padding-top: 0;
+        width: 100%;
+        position: inherit;
     }
 
     .footer {
         position: inherit;
+    }
+    .container-wrapp {
+        flex-direction: column;
+    }
+    
+    .picture {
+        margin: 0 auto;
+    }   
+}
+
+
+@media only screen and (max-width: 414px) {
+    .text {
+        font-size: 13px;
+    }
+
+    img {
+        width: 100%;
+        position: inherit;
+    }
+
+    .footer {
+        position: inherit;
+    }
+
+    .container-wrapp {
+        flex-direction: column;
+    }
+
+    .picture {
+        margin: 0 auto;
     }
 }
 

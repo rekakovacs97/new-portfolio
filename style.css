@@ -124,6 +124,17 @@ html {
 }
 
 
+@media only screen and (max-width: 414px) {
+    .links-menu {
+        padding: 8px;
+    }
+
+    .links-nav, .trtest--move, .links-socialm {
+        font-size: 10px;
+        font-weight: 700;
+    }
+}
+
 @media only screen and (max-width: 375px) {
     .links-menu {
         padding: 8px;
@@ -131,18 +142,8 @@ html {
 
     .links-nav, .trtest--move, .links-socialm {
         font-size: 10px;
-    }
-}
-
-
-@media only screen and (max-width: 375px) {
-    .links-menu {
-        padding: 6px;
-    }
-
-    .links-nav, .trtest--move, .links-socialm {
-        font-size: 8px;
         font-weight: 700;
     }
 }
+
 

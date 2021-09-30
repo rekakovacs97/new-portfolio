@@ -54,6 +54,11 @@
     }
 }
 
+@media only screen and (max-width: 414px) {
+    .personalinfo {
+        font-size: 13px;
+    }
+}
 
 @media only screen and (max-width: 375px) {
     .personalinfo {

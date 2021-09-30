@@ -25,7 +25,11 @@ img{
     
 }
 
+.footer {
+    position: relative;
+}
 
+/*
 @media only screen and (max-width: 1350px) {
     .text {
         font-size: 29px;
@@ -55,10 +59,8 @@ img{
         position: fixed;
     }
 }
-
+*/
 @media only screen and (max-width: 768px) {
-    
-
     .text {
         font-size: 23px;
         width: 80%;
@@ -70,7 +72,7 @@ img{
     }
 
     .footer {
-        position: inherit;
+        position: relative;
     }
 
     .container-wrapp {
@@ -79,8 +81,7 @@ img{
 
     .picture {
         margin: 0 auto;
-    }
-    
+    }  
 }
 
 @media only screen and (max-width: 576px) {
@@ -95,7 +96,7 @@ img{
     }
 
     .footer {
-        position: fixed;
+        position: relative;
     }
 
     .container-wrapp {

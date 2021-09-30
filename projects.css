@@ -25,7 +25,7 @@
 .githublinks:hover {
     background-color: rgb(189, 197, 181);
 }
-
+/*
 @media only screen and (max-width: 1350px) {
     .personalinfo {
         font-size: 29px;
@@ -78,37 +78,11 @@
         font-size: 23px;
     }
 }
+*/ 
 
 @media only screen and (max-width: 768px) {
     .personalinfo p {
-        font-size: 28px;
-    }
-
-    .footer {
-        position: ;
-    }
-
-    .githublinks {
-        color: green;
-        font-size: 25px;
-    }
-
-    .container-wrapper {
-        width: 80%;
-    }
-
-    .headerstyle {
-        font-size: 30px;
-    }
-
-    .headerstyle2{
-        font-size: 28px;
-    }
-}
-
-@media only screen and (max-width: 575px) {
-    .personalinfo p {
-        font-size: 26px;
+        font-size: 23px;
     }
 
     .footer {
@@ -117,6 +91,35 @@
 
     .githublinks {
         color: green;
+        font-size: 24px;
+    }
+
+    .container-wrapper {
+        width: 80%;
+    }
+
+    .headerstyle {
+        font-size: 28px;
+    }
+
+    .headerstyle2{
+        font-size: 26px;
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+    .personalinfo p {
+        font-size: 19px;
+    }
+
+    .footer {
+        position: relative;
+    }
+
+    .githublinks {
+        color: green;
+        font-size: 17px;
     }
 
     .container-wrapper {
@@ -128,7 +131,7 @@
     }
 
     .headerstyle2{
-        font-size: 18px;
+        font-size: 19px;
     }
 }
 

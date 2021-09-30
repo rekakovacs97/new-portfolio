@@ -23,7 +23,7 @@
 .elements {
     padding: 20px;
 }
-
+/*
 @media only screen and (max-width: 1350px) {
     .personalinfo {
         font-size: 29px;
@@ -42,9 +42,10 @@
     }
 }
 
+*/
 @media only screen and (max-width: 768px) {
     .personalinfo p{
-        font-size: 24px;
+        font-size: 23px;
     }
     
     .elements {
@@ -57,7 +58,7 @@
 }
 
 @media only screen and (max-width: 576px) {
-    .personalinfo p {
+    .personalinfo , .elements {
         font-size: 19px;
     }
 

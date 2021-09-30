@@ -96,7 +96,7 @@ html {
     list-style-type: none;
     padding: 5px;
 }
-
+/*
 @media only screen and (max-width: 1350px) {
     .links-menu {
         padding: 10px;
@@ -170,6 +170,7 @@ html {
         justify-content: space-around;
     }
 }
+*/
 
 @media only screen and (max-width: 768px) {
     .links-menu {
@@ -177,7 +178,7 @@ html {
     }
 
     .links-nav, .trtest--move, .links-socialm {
-        font-size: 24px;
+        font-size: 26px;
         font-weight: 700;
     }
     .menu {
@@ -196,6 +197,7 @@ html {
     }
 }
 
+
 @media only screen and (max-width: 576px) {
     .links-menu {
         padding: 2px;
@@ -208,6 +210,7 @@ html {
     .menu {
         justify-content: space-between;
     }
+
     .menu:last-child {
         margin-right: 0;
     }

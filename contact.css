@@ -27,27 +27,6 @@
 .footer {
     position: absolute;
 }
-/*
-@media only screen and (max-width: 1350px) {
-    .personalinfo {
-        font-size: 29px;
-    }
-}
-
-@media only screen and (max-width: 1280px) {
-    .personalinfo {
-        font-size: 28px;
-    }
-    
-    .elements {
-        padding: 20px;
-    }
-
-    .container-wrapper {
-        top: 45%;
-    }
-}
-*/
 @media only screen and (max-width: 1024px) {
     .personalinfo {
         font-size: 28px;
@@ -61,8 +40,6 @@
         top: 45%;
     }
 }
-
-
 
 @media only screen and (max-width: 768px) {
     .personalinfo p{

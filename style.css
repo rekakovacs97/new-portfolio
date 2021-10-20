@@ -32,15 +32,6 @@ html {
 
 .links-menu:hover {
   background-color: rgb(112, 172, 144);
-
-}
-
-.navbar {
-    position: fixed;
-    top: 0;
-    background: #faf4f4;
-    z-index: 2;
-    width: 100%;
 }
 
 .width-for-links {
@@ -81,8 +72,7 @@ html {
 .links-footer {
     text-decoration: none;
     color: black;
-    padding: 22px;
-    
+    padding: 22px;  
 }
 
 .links-footer:hover {
